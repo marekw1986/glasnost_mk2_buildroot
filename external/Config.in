@@ -1,0 +1,2 @@
+# Config.in
+source "$BR2_EXTERNAL_MYBOARD_PATH/package/foo/Config.in"
