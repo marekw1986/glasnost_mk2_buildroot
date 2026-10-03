@@ -1,2 +1,2 @@
-# Config.in
-source "$BR2_EXTERNAL_MYBOARD_PATH/package/foo/Config.in"
+# custom packages go here, e.g.:
+# source "$BR2_EXTERNAL_GLASNOST_MK2_PATH/package/foo/Config.in"
