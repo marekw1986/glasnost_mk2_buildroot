@@ -1,0 +1,13 @@
+#!/bin/sh
+
+case "$1" in
+    start)
+        echo "Starting testapp"
+        /usr/bin/testapp &
+        ;;
+    stop)
+        killall testapp 2>/dev/null
+        ;;
+esac
+
+exit 0

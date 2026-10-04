@@ -1,0 +1,4 @@
+config BR2_PACKAGE_TESTAPP
+    bool "testapp"
+    help
+      My custom application.
